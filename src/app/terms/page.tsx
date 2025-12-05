@@ -66,7 +66,7 @@ export default function FranchisePage() {
           <div className="flex flex-col md:flex-row items-start gap-8">
             <div className="w-full md:w-1/2"></div>
             <div className="w-full md:w-1/2">
-              <div className="mt-5 p-6 md:p-8 rounded-xl shadow-lg oswald text-white/90 text-lg max-h-[1000vh] overflow-auto space-y-6">
+              <div className="mt-5 p-6 md:p-8 oswald text-white/90 text-lg max-h-full overflow-auto space-y-6">
                 <div>
                   <h3 className="font-semibold mb-2">1. Membership &amp; Access</h3>
                   <p>Membership is non-transferable and valid only for the registered member. Members must present their ID or membership details when entering the gym. Fitmonk reserves the right to deny entry to anyone violating gym policies.</p>

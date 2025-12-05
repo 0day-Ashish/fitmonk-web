@@ -10,6 +10,24 @@ export default function FranchisePage() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const toggleMobile = () => setMobileOpen((s) => !s);
 
+  const [contact, setContact] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    message: "",
+  });
+
+  const onContactChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setContact((s) => ({ ...s, [name]: value }));
+  };
+
+  const onContactSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log("Contact submitted:", contact);
+    // TODO: POST to API and show success UI
+  };
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-0">
       <nav className="fixed top-16 left-1/2 z-40 transform -translate-x-1/2 w-[calc(100%-2rem)] max-w-5xl">
@@ -50,7 +68,7 @@ export default function FranchisePage() {
       </nav>
 
       <section className="w-full min-h-screen flex items-start bg-black text-white relative">
-        <div className="hidden md:block absolute left-12 top-1/2 transform -translate-y-1/2">
+        <div className="hidden md:block absolute left-12 top-80 transform -translate-y-1/2">
           <h1 className="text-9xl font-extrabold leading-none roboto-condensed">CONTACT</h1>
           <h1 className="text-9xl font-extrabold leading-none roboto-condensed -mt-2">US</h1>
           
@@ -63,9 +81,68 @@ export default function FranchisePage() {
 
         <div className="max-w-7xl mx-auto px-6 py-24 w-full z-10 pt-50">
           <div className="flex flex-col md:flex-row items-start gap-8">
-            <div className="w-full md:w-1/2"></div>
             <div className="w-full md:w-1/2">
-              
+              {/* left placeholder content */}
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="bg-[#0b0b0b] p-6 md:p-8 rounded-xl shadow-lg oswald text-white/90 space-y-6">
+                <div>
+                  <h3 className="text-2xl font-semibold mb-2">Contact Details</h3>
+                  <p className="text-white/80">FitMonk Gym</p>
+                  <p className="text-white/80">Meena Tower, Chinar Park, Kolkata - 700059</p>
+                  <p className="text-white/80">VIP Road Branch, Baguiati, West Bengal - 700059</p>
+                  <p className="mt-3 underline">+91 99999 99999</p>
+                  <p><a href="mailto:hello@fitmonk.com" className="underline">enquiry@fitmonk.co</a></p>
+                  <p className="text-white/70 mt-2">Timings: Mon - Sun · 6:00 AM - 10:00 PM</p>
+                </div>
+
+                <form onSubmit={onContactSubmit} className="mt-2">
+                  <label className="block text-sm font-medium mb-1 oswald">Name</label>
+                  <input
+                    name="name"
+                    value={contact.name}
+                    onChange={onContactChange}
+                    required
+                    placeholder="Your full name"
+                    className="w-full mb-3 px-3 py-2 rounded bg-white/5 text-white outline-none border border-white/10"
+                  />
+
+                  <label className="block text-sm font-medium mb-1 oswald">Phone</label>
+                  <input
+                    name="phone"
+                    value={contact.phone}
+                    onChange={onContactChange}
+                    required
+                    type="tel"
+                    placeholder="+91 99999 99999"
+                    className="w-full mb-3 px-3 py-2 rounded bg-white/5 text-white outline-none border border-white/10"
+                  />
+
+                  <label className="block text-sm font-medium mb-1 oswald">Email (optional)</label>
+                  <input
+                    name="email"
+                    value={contact.email}
+                    onChange={onContactChange}
+                    type="email"
+                    placeholder="you@example.com"
+                    className="w-full mb-3 px-3 py-2 rounded bg-white/5 text-white outline-none border border-white/10"
+                  />
+
+                  <label className="block text-sm font-medium mb-1 oswald">Message</label>
+                  <textarea
+                    name="message"
+                    value={contact.message}
+                    onChange={onContactChange}
+                    rows={4}
+                    placeholder="Tell us how we can help (brief details)"
+                    className="w-full mb-4 px-3 py-2 rounded bg-white/5 text-white outline-none border border-white/10"
+                  />
+
+                  <button type="submit" className="w-full bg-white text-black px-4 py-2 rounded-md font-medium oswald">
+                    Send
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>

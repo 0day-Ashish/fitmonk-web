@@ -186,6 +186,7 @@ export default function Home() {
             </h2>
           </div>
 
+          {/* profile image + caption */}
           <div className="w-full lg:w-1/2 flex flex-col items-center text-center">
              <div className="w-40 h-40 md:w-56 md:h-56 lg:w-72 lg:h-72 rounded-full overflow-hidden shadow-2xl">
                <Image
@@ -198,6 +199,27 @@ export default function Home() {
              </div>
              <div className="mt-4 text-lg font-semibold oswald text-center">Gaurav</div>
             <div className="mt-4 text-lg font-semibold oswald text-center">Founder &amp; CEO</div>
+
+           <div className="flex items-center gap-3 mt-3">
+             <a href="https://www.instagram.com/the.fit.monk.vip/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/20 text-white/80 hover:bg-white/6">
+               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                 <circle cx="17.5" cy="6.5" r="0.5" />
+               </svg>
+             </a>
+             <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/20 text-white/80 hover:bg-white/6">
+               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                 <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4V24h-4V8.5zM8.5 8.5h3.84v2.07h.05c.54-1.02 1.86-2.07 3.84-2.07C20.9 8.5 22 10.57 22 14.13V24h-4v-8.1c0-1.93-.03-4.42-2.7-4.42-2.7 0-3.11 2.1-3.11 4.27V24h-4V8.5z" />
+               </svg>
+             </a>
+             
+             <a href="#" aria-label="YouTube" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/20 text-white/80 hover:bg-white/6">
+               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                 <path d="M23.5 6.2a2.8 2.8 0 0 0-1.96-1.98C19.62 4 12 4 12 4s-7.62 0-9.54.22A2.8 2.8 0 0 0 .5 6.2 29 29 0 0 0 0 12a29 29 0 0 0 .5 5.8 2.8 2.8 0 0 0 1.96 1.98C4.38 20 12 20 12 20s7.62 0 9.54-.22a2.8 2.8 0 0 0 1.96-1.98A29 29 0 0 0 24 12a29 29 0 0 0-.5-5.8zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
+               </svg>
+             </a>
+           </div>
            </div>
          </div>
        </section>

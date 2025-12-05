@@ -50,7 +50,7 @@ export default function FranchisePage() {
       </nav>
 
       <section className="w-full min-h-screen flex items-start bg-black text-white relative">
-        <div className="hidden md:block absolute left-12 top-1/2 transform -translate-y-1/2">
+        <div className="hidden md:block absolute left-12 top-80 transform -translate-y-1/2">
           <h1 className="text-9xl font-extrabold leading-none roboto-condensed">PRIVACY</h1>
           <h1 className="text-9xl font-extrabold leading-none roboto-condensed -mt-2">POLICY</h1>
           
@@ -66,12 +66,61 @@ export default function FranchisePage() {
           <div className="flex flex-col md:flex-row items-start gap-8">
             <div className="w-full md:w-1/2"></div>
             <div className="w-full md:w-1/2">
-              
+              <div className=" p-6 md:p-8 oswald text-white/90 text-lg max-h-full overflow-auto space-y-6">
+                <div>
+                  <h3 className="font-semibold mb-2">1. Personal Information Collection</h3>
+                  <p>Fitmonk collects basic personal details such as name, phone number, email, age, and fitness-related information for membership registration and service delivery.</p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-2">2. Purpose of Data Use</h3>
+                  <p>Information is used solely for communication, membership management, fitness guidance, and improving member experience.</p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-2">3. Financial Data Security</h3>
+                  <p>Any payment-related information is processed securely through trusted payment partners and is not stored or shared by Fitmonk.</p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-2">4. Usage Data</h3>
+                  <p>We may record check-in history, attendance, and activity logs to enhance training programs and service quality.</p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-2">5. Data Sharing Policy</h3>
+                  <p>Fitmonk does not sell, rent, or share personal information with third parties, except when required by law or for essential operational services (e.g., SMS or payment processing providers).</p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-2">6. Data Protection</h3>
+                  <p>All personal information is stored securely and accessed only by authorized staff members.</p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-2">7. Member Rights</h3>
+                  <p>Members may request updates, corrections, or removal of their personal information at any time.</p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-2">8. Photos &amp; Videos</h3>
+                  <p>General gym photos or videos may be used for promotions only with proper consent from members. No personal images will be shared without permission.</p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-2">9. Policy Updates</h3>
+                  <p>Fitmonk may update this privacy policy from time to time, and continued use of services implies acceptance of the updated terms.</p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-2">10. Contact for Queries</h3>
+                  <p>Members can reach out to the Fitmonk management for any questions or concerns regarding privacy or data usage.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
       <Footer />
     </main>
   );

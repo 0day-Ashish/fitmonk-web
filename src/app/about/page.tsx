@@ -50,7 +50,7 @@ export default function FranchisePage() {
       </nav>
 
       <section className="w-full min-h-screen flex items-start bg-black text-white relative">
-        <div className="hidden md:block absolute left-12 top-1/2 transform -translate-y-1/2">
+        <div className="hidden md:block absolute left-12 top-80 transform -translate-y-1/2">
           <h1 className="text-9xl font-extrabold leading-none roboto-condensed">ABOUT</h1>
           <h1 className="text-9xl font-extrabold leading-none roboto-condensed">US</h1>
         </div>
