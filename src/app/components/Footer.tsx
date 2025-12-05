@@ -40,27 +40,45 @@ export default function Footer() {
           <div>
             <h5 className="text-sm font-bold mb-4 roboto-condensed">COMPANY</h5>
             <ul className="space-y-3 text-sm text-white/70 oswald">
-              <li>About Us</li>
-              <li>Privacy Policy</li>
-              <li>Terms &amp; Conditions</li>
+              <li>
+                <Link href="/about" className="hover:underline">About Us</Link>
+              </li>
+              <li>
+                <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
+              </li>
+              <li>
+                <Link href="/terms" className="hover:underline">Terms &amp; Conditions</Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h5 className="text-sm font-bold mb-4 roboto-condensed">GYMS</h5>
             <ul className="space-y-3 text-sm text-white/70 oswald">
-              <li>Find a Gym</li>
-              <li>Own a Gym</li>
-              <li>Franchise Login</li>
+              <li>
+                <Link href="/find-a-gym" className="hover:underline">Find a Gym</Link>
+              </li>
+              <li>
+                <Link href="/franchise" className="hover:underline">Own a Gym</Link>
+              </li>
+              <li>
+                <Link href="/franchise-login" className="hover:underline">Franchise Login</Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h5 className="text-sm font-bold mb-4 roboto-condensed">MEMBERS</h5>
             <ul className="space-y-3 text-sm text-white/70 mb-6 oswald">
-              <li>FAQs</li>
-              <li>Contact Us</li>
-              <li>Events &amp; Gallery</li>
+              <li>
+                <Link href="/faq" className="hover:underline">FAQs</Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:underline">Contact Us</Link>
+              </li>
+              <li>
+                <Link href="/events-gallery" className="hover:underline">Events &amp; Gallery</Link>
+              </li>
             </ul>
 
             <div className="flex items-center gap-3 mt-2">

@@ -102,7 +102,7 @@ export default function FranchisePage() {
       </nav>
 
       <section className="w-full min-h-screen flex items-start bg-black text-white relative">
-        <div className="hidden md:block absolute left-12 top-1/2 transform -translate-y-1/2">
+        <div className="hidden md:block absolute left-12 top-70 transform -translate-y-1/2">
           <h1 className="text-9xl font-extrabold leading-none roboto-condensed">FAQs</h1>
         </div>
 
@@ -110,7 +110,7 @@ export default function FranchisePage() {
           <h1 className="text-4xl font-extrabold roboto-condensed">FAQs</h1>
         </div>
 
-        <div className="max-w-7xl mx-auto px-6 py-24 w-full z-10 pt-50">
+        <div className="max-w-7xl mx-auto px-6 py-24 w-full z-10 pt-30">
           <div className="flex flex-col md:flex-row items-start gap-10">
             <div className="w-full md:w-1/2 ">
             </div>
