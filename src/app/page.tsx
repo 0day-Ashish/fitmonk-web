@@ -84,7 +84,7 @@ export default function Home() {
               <Link href="/franchise" className="nav-link text-white oswald">
                 Franchise
               </Link>
-              <Link href="/franchise" className="nav-link text-white oswald">
+              <Link href="/faq" className="nav-link text-white oswald">
                 FAQ
               </Link>
             </div>
@@ -105,13 +105,13 @@ export default function Home() {
             <Link href="/trial" className="text-white josefin py-2 px-2 rounded ">Trial</Link>
             <Link href="/careers" className="text-white josefin py-2 px-2 rounded ">Career</Link>
             <Link href="/franchise" className="text-white josefin py-2 px-2 rounded ">Franchise</Link>
-            <Link href="/franchise" className="text-white josefin py-2 px-2 rounded ">FAQ</Link>
+            <Link href="/faq" className="text-white josefin py-2 px-2 rounded ">FAQ</Link>
           </div>
         </div>
       </nav>
       <section
         className="w-full h-screen flex items-center justify-center bg-cover bg-center relative overflow-hidden pointers-events-none"
-        style={{ backgroundImage: "url('/bg.png')", backgroundRepeat: "no-repeat" }}
+        style={{ backgroundImage: "url('/bg.webp')", backgroundRepeat: "no-repeat" }}
       >
         <div className="flex flex-col items-center justify-center gap-10 mt-10">
           <div className="w-20 md:w-54 lg:w-50">
@@ -127,7 +127,7 @@ export default function Home() {
             <Link href="/trial" className="btn btn-primary bg-white text-black px-6 py-2 rounded-md font-medium">
               Try Us
             </Link>
-            <Link href="#" className="btn btn-outline text-white px-6 py-2 rounded-md">
+            <Link href="/about" className="btn btn-outline text-white px-6 py-2 rounded-md">
               Learn More
             </Link>
           </div>
@@ -189,7 +189,7 @@ export default function Home() {
           <div className="w-full lg:w-1/2 flex flex-col items-center text-center">
              <div className="w-40 h-40 md:w-56 md:h-56 lg:w-72 lg:h-72 rounded-full overflow-hidden shadow-2xl">
                <Image
-                 src="/gauravbro.jpg"
+                 src="/gauravbro.webp"
                  alt="Gaurav Bro — Founder & CEO"
                  width={720}
                  height={720}
@@ -221,7 +221,7 @@ export default function Home() {
               <div className="flex flex-col items-center">
                 <div className="w-full h-full rounded-xl overflow-hidden shadow-lg">
                   <Image
-                    src="/chinarpark.png"
+                    src="/chinarpark.webp"
                     alt="Chinar Park branch"
                     width={1200}
                     height={1200}
@@ -229,7 +229,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="mt-3 font-semibold oswald">Chinar Park Branch, Meena Tower, Kol-700059</div>
-                <div className="mt-5 mb-15">
+                <div className="mt-5 mb-15 flex gap-10">
                   <Link
                     href={`https://www.google.com/maps/place/The+Fit+Monk/@22.622779,88.439135,17z/data=!3m2!4b1!5s0x39f89fd2950e4ecf:0xd780e5160eedd3d6!4m6!3m5!1s0x39f89f3a3f7b6ef5:0xa8f585973cd597fe!8m2!3d22.622779!4d88.4417099!16s%2Fg%2F11wnzsqt1n!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MTIwMS4wIKXMDSoASAFQAw%3D%3D`}
                     target="_blank"
@@ -238,13 +238,21 @@ export default function Home() {
                   >
                     Get Directions
                   </Link>
+                  <Link
+                    href={`https://www.google.com/maps/place/The+Fit+Monk/@22.622779,88.439135,17z/data=!3m2!4b1!5s0x39f89fd2950e4ecf:0xd780e5160eedd3d6!4m6!3m5!1s0x39f89f3a3f7b6ef5:0xa8f585973cd597fe!8m2!3d22.622779!4d88.4417099!16s%2Fg%2F11wnzsqt1n!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MTIwMS4wIKXMDSoASAFQAw%3D%3D`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline text-black bg-white px-4 py-2 rounded-md oswald"
+                  >
+                    Contact
+                  </Link>
                 </div>
               </div>
 
               <div className="flex flex-col items-center">
                 <div className="w-full h-full rounded-xl overflow-hidden shadow-lg">
                   <Image
-                    src="/viproad.png"
+                    src="/viproad.webp"
                     alt="VIP Road branch"
                     width={1200}
                     height={1200}
@@ -252,7 +260,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="mt-3 font-semibold oswald">VIP Road Branch, Baguiati, West Bengal-700059</div>
-                <div className="mt-5">
+                <div className="mt-5 flex gap-10">
                   <Link
                     href={`https://www.google.com/maps/place/The+Fit+Monk/@22.6210528,88.4293808,17z/data=!3m1!4b1!4m6!3m5!1s0x39f89f5d74f30623:0xc2fd2f98baeeaec6!8m2!3d22.6210528!4d88.4319557!16s%2Fg%2F11kqrkl_5s!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MTIwMS4wIKXMDSoASAFQAw%3D%3D`}
                     target="_blank"
@@ -261,7 +269,16 @@ export default function Home() {
                   >
                     Get Directions
                   </Link>
+                  <Link
+                    href={`https://www.google.com/maps/place/The+Fit+Monk/@22.6210528,88.4293808,17z/data=!3m1!4b1!4m6!3m5!1s0x39f89f5d74f30623:0xc2fd2f98baeeaec6!8m2!3d22.6210528!4d88.4319557!16s%2Fg%2F11kqrkl_5s!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MTIwMS4wIKXMDSoASAFQAw%3D%3D`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline text-black bg-white px-4 py-2 rounded-md oswald"
+                  >
+                    Contact
+                  </Link>
                 </div>
+                
               </div>
             </div>
           </div>
