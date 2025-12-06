@@ -15,7 +15,7 @@ export default function FranchisePage() {
 
   const faqs = [
     {
-      q: "What is FitMonk's trial policy?",
+      q: "What is Fit Monk's trial policy?",
       a: "You can sign up for a one-time free trial session at any branch. Book via the trial form and we will confirm your slot.",
     },
     {
@@ -31,11 +31,11 @@ export default function FranchisePage() {
       a: "Yes — members can request a branch transfer through the app or by speaking to reception at your current branch.",
     },
     {
-      q: "Can beginners join Fitmonk?",
+      q: "Can beginners join Fit Monk?",
       a: "Yes, we welcome beginners and provide tailored programs to help you start your fitness journey safely and effectively.",
     },
     {
-      q: "How do I track my progress at Fitmonk?",
+      q: "How do I track my progress at Fit Monk?",
       a: "Our trainers regularly monitor your form, strength, endurance, and overall progress. We also provide goal-based programs for weight loss, muscle gain, or general fitness.",
     },
     {
@@ -55,7 +55,7 @@ export default function FranchisePage() {
       a: "Yes, you can upgrade at any time by paying the difference in the membership amount.",
     },
     {
-      q: "What equipments are available at Fitmonk?",
+      q: "What equipments are available at Fit Monk?",
       a: "We have a wide range of modern equipment including free weights, resistance machines, cardio machines, and functional training tools to support all fitness levels and goals.",
     },
   ];
