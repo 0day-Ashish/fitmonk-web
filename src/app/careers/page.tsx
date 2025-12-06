@@ -111,7 +111,7 @@ export default function FranchisePage() {
           <div className="flex flex-col md:flex-row items-start gap-8">
             <div className="w-full md:w-1/2">
             </div>
-            <div className="w-full md:w-1/2 space-y-6">
+            <div className="w-full md:w-1/2 space-y-6 mt-40 md:mt-0">
               <h3 className="text-2xl font-semibold mb-2 oswald">Current Openings</h3>
               {jobs.map((job) => (
                 <div key={job.id} className="bg-black/40 backdrop-blur-md border border-white/10 rounded-lg p-5">

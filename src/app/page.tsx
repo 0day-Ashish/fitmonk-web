@@ -261,8 +261,7 @@ export default function Home() {
                     Get Directions
                   </Link>
                   <Link
-                    href={`https://www.google.com/maps/place/The+Fit+Monk/@22.622779,88.439135,17z/data=!3m2!4b1!5s0x39f89fd2950e4ecf:0xd780e5160eedd3d6!4m6!3m5!1s0x39f89f3a3f7b6ef5:0xa8f585973cd597fe!8m2!3d22.622779!4d88.4417099!16s%2Fg%2F11wnzsqt1n!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MTIwMS4wIKXMDSoASAFQAw%3D%3D`}
-                    target="_blank"
+                    href={"/contact"}
                     rel="noopener noreferrer"
                     className="btn btn-outline text-black bg-white px-4 py-2 rounded-md oswald"
                   >
@@ -292,8 +291,7 @@ export default function Home() {
                     Get Directions
                   </Link>
                   <Link
-                    href={`https://www.google.com/maps/place/The+Fit+Monk/@22.6210528,88.4293808,17z/data=!3m1!4b1!4m6!3m5!1s0x39f89f5d74f30623:0xc2fd2f98baeeaec6!8m2!3d22.6210528!4d88.4319557!16s%2Fg%2F11kqrkl_5s!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MTIwMS4wIKXMDSoASAFQAw%3D%3D`}
-                    target="_blank"
+                    href={"/contact"}
                     rel="noopener noreferrer"
                     className="btn btn-outline text-black bg-white px-4 py-2 rounded-md oswald"
                   >

@@ -69,14 +69,24 @@ export default function TrialPage() {
       </nav>
 
       <section className="w-full min-h-screen flex items-start justify-start bg-black text-white relative">
-        <div className="hidden md:block absolute left-12 top-1/2 transform -translate-y-1/2">
+        <div className="hidden md:block absolute left-12 top-80 transform -translate-y-1/2">
           <h1 className="text-9xl font-extrabold leading-none roboto-condensed">TRY</h1>
           <h1 className="text-9xl font-extrabold leading-none roboto-condensed -mt-4">FITMONK</h1>
+          <div className="mt-6 max-w-md">
+            <p className="text-white/80 oswald text-sm">
+              Try our facilities for free! Fill out the form to get started.
+          </p>
+            </div>
         </div>
 
         <div className="md:hidden absolute left-4 top-38 text-left z-10">
           <h2 className="text-4xl font-extrabold roboto-condensed">TRY</h2>
           <h2 className="text-4xl font-extrabold roboto-condensed -mt-2">FITMONK</h2>
+           <div className="mt-3 max-w-xs">
+            <p className="text-white/80 oswald text-sm">
+              Try our facilities for free! Fill out the form to get started.
+            </p>
+            </div>
         </div>
 
         <div className="max-w-7xl mx-auto px-6 py-20 z-10 w-full pt-60">
