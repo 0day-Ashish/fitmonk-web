@@ -190,14 +190,14 @@ export default function Home() {
              <div className="w-40 h-40 md:w-56 md:h-56 lg:w-72 lg:h-72 rounded-full overflow-hidden shadow-2xl">
                <Image
                  src="/gauravbro.webp"
-                 alt="Gaurav Bro — Founder & CEO"
+                 alt="Gaurav Bro — Owner"
                  width={720}
                  height={720}
                  className="w-full h-full object-cover"
                />
              </div>
              <div className="mt-4 text-lg font-semibold oswald text-center">Gaurav Sharma</div>
-            <div className="mt-4 text-lg font-semibold oswald text-center">Founder &amp; CEO</div>
+            <div className="mt-4 text-lg font-semibold oswald text-center">Owner</div>
            <div className="flex items-center gap-3 mt-3">
              <a href="https://www.instagram.com/the.lifter.lad__/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/20 text-white/80 hover:bg-white/6">
                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
