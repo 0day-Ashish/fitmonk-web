@@ -110,25 +110,25 @@ export default function Home() {
         </div>
       </nav>
       <section
-        className="w-full h-screen flex items-center justify-center bg-cover bg-center relative overflow-hidden pointers-events-none"
-        style={{ backgroundImage: "url('/bg.webp')", backgroundRepeat: "no-repeat" }}
+        className="w-full h-screen flex items-center justify-center bg-cover bg-center relative overflow-hidden"
+        style={{ backgroundImage: "url('/bg.jpeg')", backgroundRepeat: "no-repeat" }}
       >
-        <div className="flex flex-col items-center justify-center gap-10 mt-10">
-          <div className="w-20 md:w-54 lg:w-50">
-            <Image
-              src="/me.png"
-              alt="Model phone preview"
-              width={720}
-              height={1280}
-              className="w-full h-auto pointers-event-none"
-            />
+        {/* thin black mask over background */}
+        <div className="absolute inset-0 bg-black/30 pointer-events-none" />
+
+        {/* heading + buttons above the mask */}
+        <div className="flex flex-col items-center mt-20 justify-center gap-10 z-20 pointer-events-auto  text-white px-6">
+          <div className="leading-none">
+            <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold roboto-condensed">THE</h1>
+            <h1 className="text-6xl text-center md:text-8xl lg:text-9xl font-extrabold roboto-condensed -mt-2">FITMONK</h1>
           </div>
+
           <div className="flex justify-center gap-4 oswald">
             <Link href="/trial" className="btn btn-primary bg-white text-black px-6 py-2 rounded-md font-medium">
               Try Us
             </Link>
             <Link href="/about" className="btn btn-outline text-white px-6 py-2 rounded-md">
-              Know More
+              Learn More
             </Link>
           </div>
         </div>
@@ -346,4 +346,4 @@ export default function Home() {
      <Footer />
    </main>
   );
-} 
+}
