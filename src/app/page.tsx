@@ -128,7 +128,7 @@ export default function Home() {
               Try Us
             </Link>
             <Link href="/about" className="btn btn-outline text-white px-6 py-2 rounded-md">
-              Learn More
+              Know More
             </Link>
           </div>
         </div>
@@ -186,7 +186,6 @@ export default function Home() {
             </h2>
           </div>
 
-          {/* profile image + caption */}
           <div className="w-full lg:w-1/2 flex flex-col items-center text-center">
              <div className="w-40 h-40 md:w-56 md:h-56 lg:w-72 lg:h-72 rounded-full overflow-hidden shadow-2xl">
                <Image
@@ -199,7 +198,6 @@ export default function Home() {
              </div>
              <div className="mt-4 text-lg font-semibold oswald text-center">Gaurav Sharma</div>
             <div className="mt-4 text-lg font-semibold oswald text-center">Founder &amp; CEO</div>
-
            <div className="flex items-center gap-3 mt-3">
              <a href="https://www.instagram.com/the.lifter.lad__/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/20 text-white/80 hover:bg-white/6">
                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
