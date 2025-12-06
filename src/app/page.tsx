@@ -120,7 +120,7 @@ export default function Home() {
         <div className="flex flex-col items-center mt-20 justify-center gap-10 z-20 pointer-events-auto  text-white px-6">
           <div className="leading-none">
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold roboto-condensed">THE</h1>
-            <h1 className="text-6xl text-center md:text-8xl lg:text-9xl font-extrabold roboto-condensed -mt-2">FITMONK</h1>
+            <h1 className="text-6xl text-center md:text-8xl lg:text-9xl font-extrabold roboto-condensed -mt-2">FIT MONK</h1>
           </div>
 
           <div className="flex justify-center gap-4 oswald">
@@ -128,7 +128,7 @@ export default function Home() {
               Try Us
             </Link>
             <Link href="/about" className="btn btn-outline text-white px-6 py-2 rounded-md">
-              Learn More
+              Know More
             </Link>
           </div>
         </div>
@@ -149,12 +149,12 @@ export default function Home() {
 
             <div className="w-full lg:w-1/2">
               <h1 className="text-6xl lg:text-9xl font-extrabold roboto-condensed">WHY</h1>
-              <h1 className="text-6xl lg:text-9xl font-extrabold mb-3 roboto-condensed">FITMONK?</h1>
+              <h1 className="text-6xl lg:text-9xl font-extrabold mb-3 roboto-condensed">FIT MONK?</h1>
               <p className="text-white/90 mt-20 oswald mb-5">
-               Fitmonk is one of the best gyms in the locality, known for its highly trained professionals, personalized guidance, and a friendly, motivating environment. Whether you're a beginner or an experienced lifter, Fitmonk ensures you get the support, structure, and consistency you need to reach your fitness goals. With expert-led sessions, modern equipment, and a community-driven atmosphere, Fitmonk makes fitness not just effective, but enjoyable.
+               Fit Monk is one of the best gyms in the locality, known for its highly trained professionals, personalized guidance, and a friendly, motivating environment. Whether you're a beginner or an experienced lifter, Fit Monk ensures you get the support, structure, and consistency you need to reach your fitness goals. With expert-led sessions, modern equipment, and a community-driven atmosphere, Fit Monk makes fitness not just effective, but enjoyable.
               </p>
               <p className="text-white/90 oswald">
-               It was created with a simple mission: to make fitness accessible, sustainable, and exciting for everyone. We believe that true progress happens when expert training meets a welcoming community and that&apos;s exactly what we offer. Our certified trainers design tailored programs, track your progress, and help you build long-term habits that transform your lifestyle. At Fitmonk, you&apos;re not just joining a gym; you&apos;re joining a supportive family committed to helping you become the strongest version of yourself.
+               It was created with a simple mission: to make fitness accessible, sustainable, and exciting for everyone. We believe that true progress happens when expert training meets a welcoming community and that&apos;s exactly what we offer. Our certified trainers design tailored programs, track your progress, and help you build long-term habits that transform your lifestyle. At Fit Monk, you&apos;re not just joining a gym; you&apos;re joining a supportive family committed to helping you become the strongest version of yourself.
               </p>
               <p className="text-white/90 mt-4 oswald">
                 Join a community of people building sustainable routines and get
@@ -314,7 +314,7 @@ export default function Home() {
 
           <div className="w-full lg:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-[#0f0f0f] p-6 rounded-xl shadow-lg oswald">
-              <p className="text-white/90">"FitMonk helped me build consistent habits — trainers are supportive and the sessions are effective."</p>
+              <p className="text-white/90">"Fit Monk helped me build consistent habits — trainers are supportive and the sessions are effective."</p>
               <div className="mt-4 font-semibold">— Priya</div>
             </div>
 

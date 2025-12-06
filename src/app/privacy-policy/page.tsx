@@ -69,7 +69,7 @@ export default function FranchisePage() {
               <div className=" p-6 md:p-8 oswald text-white/90 text-lg max-h-full overflow-auto space-y-6">
                 <div>
                   <h3 className="font-semibold mb-2">1. Personal Information Collection</h3>
-                  <p>Fitmonk collects basic personal details such as name, phone number, email, age, and fitness-related information for membership registration and service delivery.</p>
+                  <p>Fit Monk collects basic personal details such as name, phone number, email, age, and fitness-related information for membership registration and service delivery.</p>
                 </div>
 
                 <div>
@@ -89,7 +89,7 @@ export default function FranchisePage() {
 
                 <div>
                   <h3 className="font-semibold mb-2">5. Data Sharing Policy</h3>
-                  <p>Fitmonk does not sell, rent, or share personal information with third parties, except when required by law or for essential operational services (e.g., SMS or payment processing providers).</p>
+                  <p>Fit Monk does not sell, rent, or share personal information with third parties, except when required by law or for essential operational services (e.g., SMS or payment processing providers).</p>
                 </div>
 
                 <div>
@@ -109,12 +109,12 @@ export default function FranchisePage() {
 
                 <div>
                   <h3 className="font-semibold mb-2">9. Policy Updates</h3>
-                  <p>Fitmonk may update this privacy policy from time to time, and continued use of services implies acceptance of the updated terms.</p>
+                  <p>Fit Monk may update this privacy policy from time to time, and continued use of services implies acceptance of the updated terms.</p>
                 </div>
 
                 <div>
                   <h3 className="font-semibold mb-2">10. Contact for Queries</h3>
-                  <p>Members can reach out to the Fitmonk management for any questions or concerns regarding privacy or data usage.</p>
+                  <p>Members can reach out to the Fit Monk management for any questions or concerns regarding privacy or data usage.</p>
                 </div>
               </div>
             </div>

@@ -101,7 +101,7 @@ export default function Footer() {
         </div>
 
         <div className="max-w-7xl mx-auto px-6 pb-10 pt-4 text-white/60 text-xs flex items-center justify-between">
-          <div>© {new Date().getFullYear()} Fitmonk. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Fit Monk. All rights reserved.</div>
           <div>
             Designed and Developed by{" "}
             <Link href="https://arddev.vercel.app" target="_blank" rel="noopener noreferrer" className="underline">

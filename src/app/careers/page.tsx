@@ -85,7 +85,7 @@ export default function FranchisePage() {
             </p>
             <ol className="list-decimal list-inside text-white/70 oswald text-sm mt-2 space-y-1">
               <li>Resume (Attach Your CV/Resume)</li>
-              <li>Why do you want to join FitMonk?</li>
+              <li>Why do you want to join Fit Monk?</li>
               <li>Where do you live currently?</li>
               <li>Which position are you applying for?</li>
             </ol>
@@ -100,7 +100,7 @@ export default function FranchisePage() {
             </p>
             <ol className="list-decimal list-inside text-white/70 oswald text-sm mt-2 space-y-1">
               <li>Resume (Attach Your CV/Resume)</li>
-              <li>Why do you want to join FitMonk?</li>
+              <li>Why do you want to join Fit Monk?</li>
               <li>Where do you live currently?</li>
               <li>Which position are you applying for?</li>
             </ol>

@@ -69,7 +69,7 @@ export default function FranchisePage() {
               <div className="mt-5 p-6 md:p-8 oswald text-white/90 text-lg max-h-full overflow-auto space-y-6">
                 <div>
                   <h3 className="font-semibold mb-2">1. Membership &amp; Access</h3>
-                  <p>Membership is non-transferable and valid only for the registered member. Members must present their ID or membership details when entering the gym. Fitmonk reserves the right to deny entry to anyone violating gym policies.</p>
+                  <p>Membership is non-transferable and valid only for the registered member. Members must present their ID or membership details when entering the gym. Fit Monk reserves the right to deny entry to anyone violating gym policies.</p>
                 </div>
 
                 <div>
@@ -79,12 +79,12 @@ export default function FranchisePage() {
 
                 <div>
                   <h3 className="font-semibold mb-2">3. Health &amp; Safety</h3>
-                  <p>Members must ensure they are medically fit before joining the gym. Fitmonk is not responsible for any injuries, health issues, or accidents occurring due to improper usage of equipment or negligence. Members should immediately report any damaged equipment or safety hazard to the staff.</p>
+                  <p>Members must ensure they are medically fit before joining the gym. Fit Monk is not responsible for any injuries, health issues, or accidents occurring due to improper usage of equipment or negligence. Members should immediately report any damaged equipment or safety hazard to the staff.</p>
                 </div>
 
                 <div>
                   <h3 className="font-semibold mb-2">4. Personal Belongings</h3>
-                  <p>Members are responsible for their own belongings. Fitmonk is not liable for loss, theft, or damage to any personal items kept inside the gym.</p>
+                  <p>Members are responsible for their own belongings. Fit Monk is not liable for loss, theft, or damage to any personal items kept inside the gym.</p>
                 </div>
 
                 <div>
@@ -100,11 +100,6 @@ export default function FranchisePage() {
                 <div>
                   <h3 className="font-semibold mb-2">7. Hygiene &amp; Cleanliness</h3>
                   <p>Members must wipe equipment after use and maintain personal hygiene. Use of towel is mandatory. Do not litter in the gym premises.</p>
-                </div>
-
-                <div>
-                  <h3 className="font-semibold mb-2">8. Photography &amp; Video</h3>
-                  <p>Photography or videography inside the gym is not permitted without prior approval. Fitmonk may use general gym photos for promotional purposes; no personal images will be used without consent.</p>
                 </div>
 
                 <div>
@@ -124,7 +119,7 @@ export default function FranchisePage() {
 
                 <div>
                   <h3 className="font-semibold mb-2">12. Acceptance of Terms</h3>
-                  <p>By registering at Fitmonk, members agree to abide by the above Terms &amp; Conditions and any updates issued by the management.</p>
+                  <p>By registering at Fit Monk, members agree to abide by the above Terms &amp; Conditions and any updates issued by the management.</p>
                 </div>
               </div>
              </div>

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Fitmonk",
+  title: "The Fit Monk",
   description: "Designed & Developed by ard.dev",
 };
 
