@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Fitmonk",
-  description: "Developed by ard.dev",
+  description: "Designed & Developed by ard.dev",
 };
 
 export default function RootLayout({

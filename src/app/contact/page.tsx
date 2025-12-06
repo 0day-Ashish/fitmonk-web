@@ -91,7 +91,7 @@ export default function FranchisePage() {
                   <p className="text-white/80">FitMonk Gym</p>
                   <p className="text-white/80">Meena Tower, Chinar Park, Kolkata - 700059</p>
                   <p className="text-white/80">VIP Road Branch, Baguiati, West Bengal - 700059</p>
-                  <p className="mt-3 underline">+91 99999 99999</p>
+                  <p className="mt-3 underline">+91 74391 28953</p>
                   <p><a href="mailto:hello@fitmonk.com" className="underline">enquiry@fitmonk.co</a></p>
                   <p className="text-white/70 mt-2">Timings: Mon - Sun · 6:00 AM - 10:00 PM</p>
                 </div>

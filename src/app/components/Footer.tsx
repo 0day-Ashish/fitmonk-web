@@ -56,9 +56,6 @@ export default function Footer() {
             <h5 className="text-sm font-bold mb-4 roboto-condensed">GYMS</h5>
             <ul className="space-y-3 text-sm text-white/70 oswald">
               <li>
-                <Link href="/find-a-gym" className="hover:underline">Find a Gym</Link>
-              </li>
-              <li>
                 <Link href="/franchise" className="hover:underline">Own a Gym</Link>
               </li>
               <li>

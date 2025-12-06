@@ -79,7 +79,7 @@ export default function Home() {
                 Trial
               </Link>
               <Link href="/careers" className="nav-link text-white oswald">
-                Career
+                Careers
               </Link>
               <Link href="/franchise" className="nav-link text-white oswald">
                 Franchise
@@ -103,7 +103,7 @@ export default function Home() {
           </div>
           <div className={`md:hidden px-4 pb-4 ${mobileOpen ? "flex" : "hidden"} flex-col gap-3`}>
             <Link href="/trial" className="text-white josefin py-2 px-2 rounded ">Trial</Link>
-            <Link href="/careers" className="text-white josefin py-2 px-2 rounded ">Career</Link>
+            <Link href="/careers" className="text-white josefin py-2 px-2 rounded ">Careers</Link>
             <Link href="/franchise" className="text-white josefin py-2 px-2 rounded ">Franchise</Link>
             <Link href="/faq" className="text-white josefin py-2 px-2 rounded ">FAQ</Link>
           </div>
@@ -197,11 +197,11 @@ export default function Home() {
                  className="w-full h-full object-cover"
                />
              </div>
-             <div className="mt-4 text-lg font-semibold oswald text-center">Gaurav</div>
+             <div className="mt-4 text-lg font-semibold oswald text-center">Gaurav Sharma</div>
             <div className="mt-4 text-lg font-semibold oswald text-center">Founder &amp; CEO</div>
 
            <div className="flex items-center gap-3 mt-3">
-             <a href="https://www.instagram.com/the.fit.monk.vip/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/20 text-white/80 hover:bg-white/6">
+             <a href="https://www.instagram.com/the.lifter.lad__/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-white/20 text-white/80 hover:bg-white/6">
                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />

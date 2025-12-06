@@ -21,7 +21,7 @@ export default function FranchisePage() {
 
             <div className="hidden md:flex items-center gap-14 tracking-widest">
               <Link href="/trial" className="nav-link text-white oswald">Trial</Link>
-              <Link href="/careers" className="nav-link text-white oswald">Career</Link>
+              <Link href="/careers" className="nav-link text-white oswald">Careers</Link>
               <Link href="/franchise" className="nav-link text-white oswald">Franchise</Link>
               <Link href="/faq" className="nav-link text-white oswald">FAQ</Link>
             </div>
@@ -42,7 +42,7 @@ export default function FranchisePage() {
 
           <div className={`md:hidden px-4 pb-4 ${mobileOpen ? "flex" : "hidden"} flex-col gap-3`}>
             <Link href="/trial" className="text-white josefin py-2 px-2 rounded hover:bg-white/5">Trial</Link>
-            <Link href="/careers" className="text-white josefin py-2 px-2 rounded hover:bg-white/5">Career</Link>
+            <Link href="/careers" className="text-white josefin py-2 px-2 rounded hover:bg-white/5">Careers</Link>
             <Link href="/franchise" className="text-white josefin py-2 px-2 rounded hover:bg-white/5">Franchise</Link>
             <Link href="/faq" className="text-white josefin py-2 px-2 rounded hover:bg-white/5">FAQ</Link>
           </div>
